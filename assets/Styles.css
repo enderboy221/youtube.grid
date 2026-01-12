@@ -29,6 +29,13 @@ header {
     justify-content:space-between;
     background-color:white;
 }
+.menu_youtube svg {
+    background-color:transparent;
+}
+.menu_youtube img {
+    background-color:transparent;
+}
+/*menu_youtube*/
 .pesquisa {
     width: 404px;
     height:40px;
@@ -44,6 +51,7 @@ header {
     display:flex;
     background-color:#CCCCCC;
 }
+/*pesquisa*/
 .User_menu {
     width:130px;
     height:34px;
@@ -60,3 +68,47 @@ header {
 .User_menu svg {
     background-color:white;
 }
+/*Header-Config*/ /*menu_nav*/
+.menu_nav {
+    display:flex;
+    align-items:baseline;
+    flex-direction:column;
+}
+.Menu {
+    display:flex;
+    align-items: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+}
+.Menu p {
+    margin-left:10px;
+}
+/*menu_nav*/ /*main*/
+main {
+    display: grid;
+    grid-template-columns:repeat(4,280px);
+    grid-template-rows:repeat(3,280px);
+}
+.layout_videos {
+    
+}
+.layout_videos img {
+    width:100%;
+}
+.descricao_video {
+
+}
+.descricao_video img{
+    width:42px;
+    height:42px;
+    border-radius:100px;
+}
+.descricao_video h1{
+    font-size:14px;
+}
+.descricao_video p{ 
+    font-size:12px;
+    color:#A9A9A9;
+}
+
